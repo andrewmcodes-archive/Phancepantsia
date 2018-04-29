@@ -3,16 +3,24 @@
 }
 
 .cover {
-  background-image: url("https://images.unsplash.com/photo-1514981184024-f7fea649f6ed?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=ce5ce8a403026f309a86d80c4e4593af&auto=format&fit=crop&w=1050&q=80");
-  object-fit: cover;
+  background-image: url("../images/castle1.jpg");
+  background-size: cover;
   background-position: top;
   background-repeat: no-repeat;
-  min-height: 500px;
-  width: 100%;
+  height: 100vh;
+}
+
+.half-height {
+  height: 80vh !important;
 }
 
 .gradient {
-  background-image: linear-gradient(0.5turn, #00dbde 0%, #fc00ff 100%);
+  background: #f85032;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #e73827, #f85032);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #e73827, #f85032);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 .text-super {
