@@ -14,6 +14,18 @@
   height: 80vh !important;
 }
 
+.slow {
+  -webkit-animation-duration: 2s;
+  -webkit-animation-delay: 0s;
+  -webkit-animation-iteration-count: 1;
+}
+
+.slow1 {
+  -webkit-animation-duration: 2s;
+  -webkit-animation-delay: 1s;
+  -webkit-animation-iteration-count: 1;
+}
+
 .gradient {
   background: #f85032;
   /* fallback for old browsers */
